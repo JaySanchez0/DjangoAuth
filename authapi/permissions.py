@@ -9,6 +9,5 @@ class AuthorPermission(BasePermission):
 
 class PeoplePermission(BasePermission):
     def has_permission(self, request, view):
-        print(">>>>>>>>> Permision")
         print(request.user.name)
         return request.user.name=="Juan"
