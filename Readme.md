@@ -32,6 +32,7 @@ File settings.py add rest_framework and ConfigAppClass
 AppConfigClass is the name of class into apps file
 
 ## Write security
+    
     Create a class who heritage BaseAuthentication
 
 ~~~
